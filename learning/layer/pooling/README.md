@@ -8,7 +8,7 @@
 保留更多圖像背景，常接於DenseNet 之間，降維同時也保留特徵訊息。缺點，卷積層參數誤差造成pooling 後估計值偏移。
 
 ##### 由以下圖做釋義
-![avatar](https://www.researchgate.net/profile/Hanli_Wang2/publication/300020038/figure/fig2/AS:404961465782275@1473561745471/Toy-example-illustrating-the-drawbacks-of-max-pooling-and-average-pooling.png)
+![avatar](./img/pooling2.png)
 ![avatar](http://ufldl.stanford.edu/wiki/images/0/08/Pooling_schematic.gif)
 
 ##### Reference
