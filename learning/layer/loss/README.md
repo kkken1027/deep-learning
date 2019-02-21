@@ -17,7 +17,7 @@ MSE 越遠離解梯度越大，越靠近解梯度越小，收斂慢。<BR>
 ![avatar](./img/loss_mse.jpg)<BR>
 紅色代表MSE、 藍色代表MAE，可以看出以上的解釋[2]。
 ![avatar](./img/loss2.gif)<BR>
-- 交叉熵(cross-entropy)
+- 交叉熵(cross-entropy)<BR>
 ![avatar](./img/loss_entropy.jpg)<BR>
 處裡分類問題，訊息量的統計(量測不確定性)，先介紹Entropy，舉例 A玩遊戲很厲害，勝率0.9，失敗0.1，B不太厲害，勝率0.3，失敗0.7，C略懂遊戲，勝率一半一半<BR>
 Entropy H(A) = -0.9log(0.9) - 0.1log(0.1) = 0.4689<BR>
@@ -34,7 +34,6 @@ Entropy H(C) = -0.5log(0.5) - 0.5log(0.5) = 1<BR>
  -(0 × log(0.3)+1 × log(0.4)+0 × log(0.2)+0 × log(0.1))= 1.322<BR>
  其他的cross-entropy:<BR>
 -(0 × log(0.4)+0 × log(0.3)+0 × log(0.3)+ 1 × log(0.1))= 3.322<BR>
-<BR>
 模型一的cross-entropy<BR>
 =男生的cross-entropy+女生的cross-entropy其他的cross-entropy<BR>
 =2.322+1.322+3.322= 6.966<BR>
