@@ -25,7 +25,7 @@ Entropy H(B) = -0.3log(0.3) - 0.7log(0.7) = 0.8812<BR>
 Entropy H(C) = -0.5log(0.5) - 0.5log(0.5) = 1<BR>
 有此可知 C的不確定最大，完全猜不到結果，由下圖可知悅不確定Entropy越大。<BR>
 ![avatar](./img/loss_entropy1.jpg)<BR>
-以下表歲然錯誤率都是0.25，但cross-entropy可以看出兩個model的好壞。<BR> 
+以下表雖然錯誤率都是0.25，但cross-entropy可以看出兩個model的好壞。<BR> 
 ![avatar](./img/loss_entropy2.jpg)<BR>
 模型一<BR>
 男生的cross-entropy:<BR>
@@ -38,7 +38,7 @@ Entropy H(C) = -0.5log(0.5) - 0.5log(0.5) = 1<BR>
 =男生的cross-entropy+女生的cross-entropy其他的cross-entropy<BR>
 =2.322+1.322+3.322= 6.966<BR>
 可以得知 cross-entropy越小，代表模型越好。<BR>
-<BR>
-##### Reference
+
+##### Reference<BR>
 - [1]https://zhuanlan.zhihu.com/p/48426076
 - [2]https://medium.com/@chih.sheng.huang821/%E6%A9%9F%E5%99%A8-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-%E5%9F%BA%E7%A4%8E%E4%BB%8B%E7%B4%B9-%E6%90%8D%E5%A4%B1%E5%87%BD%E6%95%B8-loss-function-2dcac5ebb6cb
